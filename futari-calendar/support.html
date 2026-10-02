@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ふたりカレンダー サポート</title>
+<meta name="description" content="ふたりカレンダー（Futari Calendar）のサポート / Support">
+<style>
+  :root{
+    --bg:#f7f3ea; --fg:#1f1b16; --muted:#6b6257; --line:#d9cfbd; --accent:#7b4fd0; --card:#fffdf8;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#15120f; --fg:#ece6da; --muted:#a79e90; --line:#3a332b; --accent:#b49cff; --card:#1d1915;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#15120f; --fg:#ece6da; --muted:#a79e90; --line:#3a332b; --accent:#b49cff; --card:#1d1915;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",system-ui,sans-serif;
+    line-height:1.8;font-size:16px}
+  main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+  h1{font-size:1.6rem;line-height:1.4;margin:0 0 4px}
+  .sub{color:var(--muted);margin:0 0 24px;font-size:.95rem}
+  nav{display:flex;gap:12px;flex-wrap:wrap;margin:0 0 24px}
+  nav a{color:var(--accent)}
+  section{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px 20px 12px;margin:0 0 24px}
+  h2{font-size:1.25rem;margin:0 0 8px;border-bottom:2px solid var(--accent);padding-bottom:6px}
+  h3{font-size:1.02rem;margin:20px 0 4px}
+  p{margin:0 0 12px;overflow-wrap:anywhere}
+  .date{color:var(--muted)}
+  .note{color:var(--muted);font-size:.9rem}
+  a{color:var(--accent)}
+  footer{color:var(--muted);font-size:.85rem;text-align:center}
+</style>
+</head>
+<body>
+<main>
+  <h1>ふたりカレンダー サポート</h1>
+  <p class="sub">Futari Calendar — Support</p>
+  <nav><a href="privacy.html">プライバシーポリシー / Privacy Policy</a></nav>
+  <section lang="ja">
+    <h2>よくある質問</h2>
+    <h3>相手とつなぐには？</h3>
+    <p>呼び名を入れて「ペアを作って相手を招待する」を押し、表示された招待コードを「LINEなどで送る」で相手に送ってください。相手はアプリで「招待コードを持っている」を押し、コードを入れると、ふたりのカレンダーがつながります。</p>
+    <h3>相手がAndroidでも使えますか？</h3>
+    <p>はい。iPhoneとAndroidのあいだでも同じカレンダーを共有できます（Android版は準備中です）。</p>
+    <h3>デートに誘うには？</h3>
+    <p>予定を追加するときに「ふたり」を選ぶと、相手に誘いが届きます。相手が「OK！」を押すと予定が確定し、紫色で表示されます。</p>
+    <h3>機種変更したら？</h3>
+    <p>現在、アプリを入れ直すと新しいユーザーとして始まります。新しい端末で相手から招待コードを受け取り直してください（引き継ぎ機能は今後の更新で対応予定です）。</p>
+    <h3>データを消したい</h3>
+    <p>「設定」→「ペアを解除してデータを削除」で、ふたりの予定や記念日を削除できます。</p>
+  </section>
+  <section lang="ja">
+    <h2>お問い合わせ</h2>
+    <p>不具合やご要望は、こちらへメールでお寄せください。<br>Smidem <a href="mailto:smiskigame@gmail.com">smiskigame@gmail.com</a></p>
+  </section>
+  <section lang="en">
+    <h2>Support</h2>
+    <p>To pair: enter your nickname, tap "ペアを作って相手を招待する" (Create a pair), and send the invite code to your partner. Your partner taps "招待コードを持っている" (I have a code) and enters it. To delete data: Settings → "ペアを解除してデータを削除". Contact: <a href="mailto:smiskigame@gmail.com">smiskigame@gmail.com</a></p>
+  </section>
+  <footer>© 2026 Smidem</footer>
+</main>
+</body>
+</html>
